@@ -1,0 +1,26 @@
+Sandesh Paudel
+Email: spaudel@u.rochester.edu
+
+HOW TO RUN THE PROGRAM:
+1) Insert arbitrary lines on the Main Method of Test.java. 
+	The lines should be in the following format:
+	lines.add(new Point[] {Point0, Point1}); where Point0 and Point1 are the end points of the line
+	NOTE: The points will not work if they are decimals. Since Points only take integer values, please multiply each decimal point by 100. My program works with values ranging from 0 to 100. For example, you would input (0.00, 0.12) as (0, 12).
+	Additionally, the Lines in the Project description are already added by default in the Main Method;
+	The first line you add will be Line 0, the second will be Line 1, third will be Line 2, etc...
+2) Run the Test class. 
+3) Click at a point in the Frame.  This will be Point a.
+4) Click again at a point in the Frame. This will be Point b. 
+5) Look at the console, it will print out the Paths to the points, whether they are in the same region, or if they are separated by a line or not. 
+6) Click as many times as you please, and look at the results in the console. Points a and b will be reset each time. 
+7) Please let me know if you have any questions.
+
+
+//OUTPUT:
+	In order traversal of the tree : 
+	31403241424
+	Number of external Nodes = 12
+	Path Point a : Line 0-> right -> Line 1-> right -> Line 2-> left -> Line 4-> left -> 
+	Path Point b : Line 0-> right -> Line 1-> right -> Line 2-> right -> Line 4-> right -> 
+	The Points are NOT in the same region.
+	The Points are saperated by Line 2

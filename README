@@ -1,0 +1,37 @@
+Sandesh Paudel
+Email: spaudel@u.rochester.edu
+
+In this project, I created a Binary Search Tree to solve the Point Location Problem: https://en.wikipedia.org/wiki/Point_location. 
+
+The aim of this project is to us data structures to solve real mathematical problems. 
+
+
+Build Instructions:
+Go to the src folder and open the terminal on that 
+directory. 
+
+Then, enter the following on the command line:
+javac Test.java
+
+followed by:
+java Test
+
+
+This project was quite challenging and it really exercised my problem-solving and analytical skills. Please read the OUTPUT.txt for the steps to run the program.
+Here is how the program works. I used a Point array to store the points for each line. Using these, a binary tree was created with the help of the ccw function.
+If the lines intersect, I split one of the lines into two line segments and proceeded to the corresponding pathway from there. 
+Once the Tree worked, I used the ccw function yet again to search for the point. I stored the pathway in an array and then compared the arrays to find where the points
+deviate into different region. 
+The Pathways for each points are printed in the console, as is everything else. 
+
+Please note that I have made the GUI for extra credits.
+
+Here is the list of all files:
+OUTPUT.txt
+README.txt
+//Inside the SRC folder
+BinarySearchTree.java
+BST.java
+MyTreeNode.java
+Test.java
+
